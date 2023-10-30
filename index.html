@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>Резюме</title>
+     <link rel="icon" type="images/x-icon" href="https://cdn.icon-icons.com/icons2/11/PNG/256/customer_person_people_man_user_client_1629.png">
+     <link href="styles.css" rel="stylesheet" />
+
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="info">
+            <img src="https://sun9-79.userapi.com/impg/ucbWVVeB3dz3QFmNoY15Ar0eEcvqSpTxOMD9_A/H_MlCri9REw.jpg?size=430x553&quality=95&sign=d3295e4a68242d70c43b2d4143b8ed28&type=album" alt="тут моя фотка" class="avatar" />
+            
+            <div class="info-text">
+                <h1>Федоров Арсений Денисович</h1>
+                <p>Мне <strong>18 лет</strong></p>
+                <p>Я студент 1 курса <strong>МТУСИ</strong></p>
+                <p>Люблю изучать программирование</p>
+                <p><a href="https://mtuci.ru" target="_blank">Сайт университета</a></p>
+                
+                
+                
+                
+                
+                <h4>Мои социальные сети<span id="dots"></span></h4>
+                <span id="more">
+                <a href="https://vk.com/arssss_128956" target="_blank">VK</a>
+                |
+                <a href="https://t.me/fedoroff05" target="_blank">Telegram</a>
+                |
+                <a href="https://github.com/Fedoroff05" target="_blank">GitHub</a>
+                </span>
+                <button id="bttn" onclick="readMore()">Посмотреть</button>
+                <script src="app.js"></script>
+                
+                
+                
+                <h4>Мои лабораторные работы<span id="dotss"></span></h4>
+                <span id="moree">
+                <a href="https://sun9-80.userapi.com/impg/iPaM4CVKtbexITjyGYsJx7lh00qKTmhp44F5cA/hF5NBToVoMk.jpg?size=453x604&quality=95&sign=5dfcd805fdc834e3ac93601f47829207&type=album" target="_blank">Лабораторная работа №1</a>
+                ||
+                <a href="http://127.0.0.1:8000/docs#/default/wikipedia_search__post" target="_blank">Лабораторная работа по FastAPI</a>
+                </span>
+                <button id="btnn" onclick="readMoree()">Посмотреть</button>
+                <script src="ttt.js"></script>
+                </div>
+
+                
+            </div>
+            
+            
+            
+        
+        
+        
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Автомобили</li>
+                <li>Игры на консоли</li>
+                <li>Изучение языков программирования</li>
+            </ol>
+        </div>
+    
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <tr>
+                    <td>Вкусвилл</td>
+                    <td>Курьер</td>
+                    <td>06.2023 - 08.2023</td>
+                </tr>
+                <tr>
+                    <td>Яндекс</td>
+                    <td>Оператор службы поддержки Drive</td>
+                    <td>09.2023 - 10.2023</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="card bg-red">
+            <h2>Мои любимые видео<span id="dotsss"></span></h2>
+            <span id="moreee">
+            <ul class="link-list">
+                <li><a href="https://www.youtube.com/watch?v=7PIji8OubXU&ab_channel=8KEarth">Best of Dolby Vision 12K HDR 120fps</a></li>
+                <li><a href="https://www.youtube.com/watch?v=1La4QzGeaaQ&list=RDQMaLWXg_ciMVY&start_radio=1&ab_channel=Jacob%2BKatieSchwarz">Peru 8K HDR 60FPS (FUHD)</a></li>
+              </ul> 
+            </span>   
+            <button id="btnnn" onclick="readMoreee()">Посмотреть</button>
+            <script src="ppp.js"></script>
+        </div>
+
+    
+        
+        <div class="contact">      
+            <h2>Связаться со мной</h2>
+        
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input tupe="text" id="name"
+                        placeholder="Введите ваше имя...">
+                    </div>
+                    
+                    <div class="form-group">      
+                        <label for="email">Ваш email:</label>
+                        <input tupe="email" id="email"
+                        placeholder="Введите email...">
+                    </div> 
+                </div>
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <textarea id="text"></textarea>
+                </div>
+                
+                <input class="btn" type="submit" value="Связаться!">
+            </form>
+        </div>
+
+
+        <div class="position">
+            <div class="box"></div>
+        </div>
+    </div>
+    <div id="app" class="container-fluid">
+        <div id="panel" class="bg-light sidebar"></div>
+        <div id="site" class="content"></div>
+    </div>
+
+    
+
+       
+  </body>
+</html>
+
